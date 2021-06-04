@@ -11,4 +11,7 @@ public:
 	void show() {
 		cout << "Name : " << name << endl;
 	}
+	string getName()const {
+		return name;
+	}
 };
